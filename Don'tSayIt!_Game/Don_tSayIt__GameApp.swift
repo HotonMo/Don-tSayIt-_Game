@@ -11,7 +11,7 @@ import SwiftUI
 struct Don_tSayIt__GameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen().environmentObject(GameVM())
         }
     }
 }
